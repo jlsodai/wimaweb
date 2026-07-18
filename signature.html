@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Wima Signature — Transforming Spaces. One Signature Finish At A Time.</title>
+<meta name="description" content="Premium interior finishing, design inspiration and procurement support by Wima Builders, Ghana.">
+<meta property="og:title" content="Wima Signature — Transforming Spaces. One Signature Finish At A Time."/>
+<meta property="og:description" content="Curated inspiration, premium finishes and beautifully executed spaces for modern homes and commercial projects."/>
+<meta property="og:url" content="https://wima-builders.github.io/wima-deal-hub/signature.html"/>
+<meta property="og:image" content="https://wima-builders.github.io/wima-deal-hub/og-image.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
+<style>
+.spaces{
+  background:#1C1810;
+  width:100%;
+  overflow:hidden;
+  padding-bottom:clamp(44px,8vw,72px);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   WIMA SIGNATURE — Design language matched to Wima Deal Hub
+   Same palette · same type system · same card language
+   Palette: parchment #F5F1E8 · charcoal #1C1810 · gold #A8813A
+   Type: Cormorant Garamond (display) · DM Sans (body)
+═══════════════════════════════════════════════════════════ */
+
+/* ── RESET ──────────────────────────────────────────────── */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px;-webkit-tap-highlight-color:transparent;scroll-padding-top:64px}
+img{display:block;max-width:100%;height:auto}
+a{text-decoration:none;color:inherit}
+button{cursor:pointer;font-family:inherit;border:none;background:none;padding:0}
+body{
+  font-family:'DM Sans',system-ui,sans-serif;
+  background:#F5F1E8;
+  color:#1C1810;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+  line-height:1.6;
+}
+
+/* ── SCROLLBAR ──────────────────────────────────────────── */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:#F5F1E8}
+::-webkit-scrollbar-thumb{background:rgba(168,129,58,.4);border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:rgba(168,129,58,.7)}
+
+/* ── LAYOUT ─────────────────────────────────────────────── */
+.W{width:100%;max-width:1160px;margin:0 auto;padding:0 clamp(16px,5vw,28px)}
+.sec{padding:clamp(44px,8vw,72px) 0}
+.sec-dark{background:#1C1810;color:#F2E8D0}
+
+/* ── TOKENS (matching index.html hardcoded values) ──────── */
+:root{
+  --parchment:#F5F1E8;
+  --charcoal:#1C1810;
+  --charcoal2:#28231D;
+  --charcoal3:#3D3830;
+  --cream:#EDE0C4;
+  --gold:#A8813A;
+  --gold-h:#C09848;
+  --gold-bg:rgba(168,129,58,.1);
+  --gold-border:rgba(168,129,58,.28);
+  --border:rgba(40,35,29,.1);
+  --border-light:rgba(40,35,29,.07);
+  --tf:'Cormorant Garamond',Georgia,serif;
+  --ts:'DM Sans',system-ui,sans-serif;
+  --r1:4px;--r2:8px;--r3:12px;--r4:16px;
+  --shadow-sm:0 1px 3px rgba(40,35,29,.08),0 2px 8px rgba(40,35,29,.06);
+  --shadow-md:0 2px 8px rgba(40,35,29,.08),0 6px 20px rgba(40,35,29,.08);
+  --shadow-lg:0 4px 12px rgba(40,35,29,.09),0 8px 28px rgba(40,35,29,.1);
+}
+
+/* ── SCROLL REVEAL ──────────────────────────────────────── */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+
+/* ═══════════════════════════════════════════════════════════
+   NAV — exact match to index.html
+═══════════════════════════════════════════════════════════ */
+.nav{
+  position:sticky;top:0;left:0;right:0;z-index:200;
+  width:100%;height:62px;
+  background:#F5F1E8;
+  border-bottom:2px solid rgba(168,129,58,.25);
+  box-shadow:0 2px 12px rgba(40,35,29,.08);
+}
+.nav-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:8px;width:100%;height:62px;
+  padding:0 clamp(16px,5vw,28px);
+  max-width:1160px;margin:0 auto;
+}
+.nav-logo{
+  font-family:var(--tf);font-size:clamp(16px,4vw,19px);
+  font-weight:400;color:#1C1810;letter-spacing:.03em;flex-shrink:0;
+}
+.nav-logo em{font-style:normal;color:#A8813A}
+.nav-logo-sub{
+  font-size:8px;font-weight:600;letter-spacing:.18em;
+  text-transform:uppercase;color:rgba(168,129,58,.7);
+  display:block;margin-top:1px;
+}
+.nav-links{display:none;align-items:center;gap:0;flex:1;justify-content:center}
+.nav-lk{
+  position:relative;display:inline-flex;align-items:center;
+  font-size:13px;font-weight:600;letter-spacing:.01em;color:#1C1810;
+  padding:8px 11px;border-radius:6px;
+  transition:color .18s,background .18s;white-space:nowrap;
+}
+.nav-lk::after{
+  content:'';position:absolute;bottom:4px;left:11px;right:11px;
+  height:2px;background:#A8813A;border-radius:2px;
+  transform:scaleX(0);transition:transform .22s ease;
+}
+.nav-lk:hover{color:#A8813A;background:rgba(168,129,58,.09)}
+.nav-lk:hover::after{transform:scaleX(1)}
+.nav-hub{
+  color:#A8813A !important;font-weight:700;letter-spacing:.06em;
+  position:relative;
+}
+.nav-hub::after{
+  content:'';position:absolute;bottom:-2px;left:0;right:0;
+  height:1px;background:linear-gradient(to right,transparent,rgba(168,129,58,.5),transparent);
+  transform:scaleX(0);transform-origin:center;transition:transform .25s ease;
+}
+.nav-hub:hover{color:#C09848 !important}
+.nav-hub:hover::after{transform:scaleX(1)}
+.nav-hub::after{display:none}
+.nav-hub:hover{background:rgba(168,129,58,.18);border-color:rgba(168,129,58,.5);color:#C09848}
+.nav-r{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.nav-wa{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#1C1810;color:#fff;
+  font-size:12px;font-weight:700;letter-spacing:.04em;
+  padding:9px 14px;border-radius:var(--r2);
+  transition:background .18s,transform .15s;white-space:nowrap;
+}
+.nav-wa:hover{background:#A8813A;transform:translateY(-1px)}
+.nav-wa svg{flex-shrink:0;width:14px;height:14px}
+/* Hamburger */
+.sig-burger{
+  display:none;flex-direction:column;justify-content:center;
+  gap:5px;width:38px;height:38px;padding:6px;
+  background:rgba(40,35,29,.07);border:1.5px solid rgba(40,35,29,.18);
+  border-radius:var(--r2);cursor:pointer;flex-shrink:0;
+}
+.sig-burger-bar{
+  display:block;width:100%;height:2px;background:#1C1810;
+  border-radius:2px;transition:transform .26s ease,opacity .2s ease;
+  transform-origin:center;
+}
+.sig-burger.open .sig-burger-bar:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.sig-burger.open .sig-burger-bar:nth-child(2){opacity:0;transform:scaleX(0)}
+.sig-burger.open .sig-burger-bar:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media(min-width:600px){.nav-links{display:flex}.sig-burger{display:none}}
+
+/* ═══════════════════════════════════════════════════════════
+   §3 FEATURED PROJECTS — matching .cc-dark card from index
+═══════════════════════════════════════════════════════════ */
+.projects{background:#F5F1E8}
+.proj-hd{padding:clamp(40px,7vw,64px) 0 clamp(24px,4vw,36px)}
+.proj-ey{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--gold-bg);border:1px solid var(--gold-border);
+  border-radius:20px;padding:4px 11px;margin-bottom:12px;
+}
+.proj-ey-dot{width:4px;height:4px;border-radius:50%;background:#A8813A;flex-shrink:0}
+.proj-ey-txt{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#A8813A}
+.proj-h{
+  font-family:var(--tf);font-size:clamp(28px,7vw,46px);
+  font-weight:300;line-height:1.05;letter-spacing:-.02em;
+  color:#1C1810;margin-bottom:8px;
+}
+.proj-h em{font-style:italic;color:#A8813A}
+.proj-lead{font-size:14px;color:rgba(40,35,29,.55);font-weight:300;line-height:1.6}
+
+
+
+/* ═══════════════════════════════════════════════════════════
+   §4 WHY WIMA SIGNATURE — matching .wbc-card from index
+═══════════════════════════════════════════════════════════ */
+.why{background:#1C1810}
+.why-hd{padding:clamp(44px,8vw,72px) 0 clamp(28px,5vw,44px)}
+.why-ey{
+  display:inline-flex;align-items:center;gap:7px;
+  background:rgba(168,129,58,.14);border:1px solid rgba(168,129,58,.28);
+  border-radius:20px;padding:4px 11px;margin-bottom:12px;
+}
+.why-ey-dot{width:4px;height:4px;border-radius:50%;background:#C09848;flex-shrink:0}
+.why-ey-txt{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C09848}
+.why-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(34px,8.5vw,58px);
+  font-weight:300;
+  line-height:1.04;
+  letter-spacing:-.022em;
+  color:#EDE0C4;
+  margin-bottom:clamp(20px,4vw,32px);
+}
+.why-h em{font-style:italic;color:#C09848}
+
+/* Cards — exact .wbc-card language from index */
+.wbc{display:flex;flex-direction:column;gap:10px;padding-bottom:clamp(40px,7vw,64px)}
+.wbc-card{
+  background:linear-gradient(145deg,rgba(255,255,255,.08) 0%,rgba(255,255,255,.04) 100%);
+  border:1px solid rgba(255,255,255,.1);
+  border-left:3px solid rgba(168,129,58,.45);
+  border-radius:var(--r3);
+  padding:clamp(16px,3.5vw,24px) clamp(16px,3.5vw,22px);
+  transition:border-left-color .22s ease,box-shadow .22s ease,transform .22s ease;
+  will-change:transform;
+}
+.wbc-card:hover{
+  border-left-color:#C09848;
+  box-shadow:0 2px 0 rgba(255,255,255,.06) inset,0 6px 24px rgba(0,0,0,.25);
+  transform:translateY(-2px);
+}
+.wbc-head{display:flex;align-items:flex-start;gap:14px;margin-bottom:10px}
+.wbc-ico{
+  width:38px;height:38px;flex-shrink:0;
+  background:rgba(168,129,58,.14);
+  border:1px solid rgba(168,129,58,.32);
+  border-radius:var(--r2);
+  display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
+  transition:background .22s,border-color .22s,transform .22s;
+}
+.wbc-ico svg{width:18px;height:18px;color:#C09848;display:block;flex-shrink:0}
+.wbc-t{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(18px,3.5vw,22px);
+  font-weight:400;
+  color:#EDE0C4;
+  line-height:1.2;
+  flex:1;
+  padding-top:1px;
+  letter-spacing:.01em;
+}
+.wbc-chk{
+  width:16px;height:16px;border-radius:50%;flex-shrink:0;
+  background:rgba(168,129,58,.12);border:1px solid rgba(168,129,58,.25);
+  position:relative;margin-top:3px;
+}
+.wbc-chk::after{
+  content:'';position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-58%) rotate(45deg);
+  width:4px;height:6px;
+  border-right:1.5px solid #C09848;border-bottom:1.5px solid #C09848;
+}
+.wbc-d{
+  font-size:clamp(12px,2.2vw,14px);
+  color:rgba(237,224,196,.72);
+  line-height:1.72;
+  font-weight:300;
+}
+@media(min-width:600px){
+  }
+
+/* ═══════════════════════════════════════════════════════════
+   §5 START YOUR TRANSFORMATION — dark CTA section
+═══════════════════════════════════════════════════════════ */
+.cta-sec{background:#F5F1E8;padding:clamp(44px,8vw,72px) 0}
+.cta-inner{text-align:center}
+.cta-pill{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--gold-bg);border:1px solid var(--gold-border);
+  border-radius:20px;padding:5px 14px;margin-bottom:clamp(16px,3vw,22px);
+}
+.cta-pill-dot{width:5px;height:5px;border-radius:50%;background:#A8813A;flex-shrink:0}
+.cta-pill-txt{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#A8813A}
+.cta-h{
+  font-family:var(--tf);font-size:clamp(30px,8vw,52px);
+  font-weight:300;line-height:1.05;letter-spacing:-.02em;
+  color:#1C1810;margin-bottom:clamp(12px,2vw,16px);
+}
+.cta-h em{font-style:italic;color:#A8813A}
+.cta-sub{
+  font-size:clamp(13px,2.5vw,15px);font-weight:300;
+  color:rgba(40,35,29,.65);line-height:1.7;
+  max-width:44ch;margin:0 auto clamp(24px,4vw,34px);
+}
+.cta-diaspora-note{
+  font-size:13px;font-weight:400;color:rgba(40,35,29,.55);
+  margin:-14px auto clamp(24px,4vw,34px);max-width:44ch;
+}
+.cta-diaspora-note a{color:#A8813A;font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.cta-diaspora-note a:hover{color:#8B6A2E}
+.cta-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:clamp(16px,3vw,22px)}
+/* Light-mode primary button */
+.btn-primary-light{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#1C1810;color:#F5F1E8;
+  font-size:13px;font-weight:700;letter-spacing:.04em;
+  padding:12px 22px;border-radius:var(--r2);
+  box-shadow:var(--shadow-md);
+  transition:background .18s,transform .15s;
+  white-space:nowrap;
+}
+.btn-primary-light:hover{background:#A8813A;transform:translateY(-1px)}
+.btn-outline-light{
+  display:inline-flex;align-items:center;gap:8px;
+  background:transparent;color:#1C1810;
+  border:1.5px solid rgba(40,35,29,.3);
+  font-size:13px;font-weight:600;letter-spacing:.04em;
+  padding:11px 20px;border-radius:var(--r2);
+  transition:background .18s,border-color .18s,transform .15s;
+  white-space:nowrap;
+}
+.btn-outline-light:hover{background:rgba(40,35,29,.06);border-color:rgba(40,35,29,.55);transform:translateY(-1px)}
+.cta-note{font-size:11px;color:rgba(40,35,29,.45);letter-spacing:.06em}
+.cta-divider{
+  display:flex;align-items:center;gap:12px;
+  max-width:320px;margin:clamp(24px,4vw,36px) auto clamp(16px,2.5vw,22px);
+}
+.cta-divider-line{flex:1;height:1px;background:var(--border)}
+.cta-divider-dot{
+  width:24px;height:24px;border-radius:50%;
+  background:var(--gold-bg);border:1px solid var(--gold-border);
+  display:flex;align-items:center;justify-content:center;
+  color:#A8813A;flex-shrink:0;font-size:11px;
+}
+.cta-links{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 20px}
+.cta-lk{
+  font-size:11px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:rgba(40,35,29,.5);
+  transition:color .15s;
+}
+.cta-lk:hover{color:#A8813A}
+
+/* ═══════════════════════════════════════════════════════════
+   §6 FOOTER — matches index.html footer
+═══════════════════════════════════════════════════════════ */
+.ft{
+  background:#1C1810;color:rgba(237,224,196,.7);
+  padding:clamp(32px,6vw,52px) 0 clamp(20px,4vw,32px);
+  border-top:1px solid rgba(168,129,58,.15);
+}
+.ft-inner{display:flex;flex-direction:column;gap:clamp(18px,3.5vw,26px)}
+.ft-name{
+  font-family:var(--tf);font-size:20px;font-weight:400;
+  color:#EDE0C4;letter-spacing:.04em;margin-bottom:3px;
+}
+.ft-name em{font-style:normal;color:#C09848}
+.ft-tag{font-size:9px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:rgba(168,129,58,.5)}
+.ft-wa{
+  display:flex;align-items:center;gap:11px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--r3);padding:11px 14px;
+  transition:background .15s,border-color .15s;
+}
+.ft-wa:hover{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.18)}
+.ft-wa-ico{
+  width:30px;height:30px;border-radius:50%;
+  background:#16A34A;display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.ft-wa-num{font-size:13px;font-weight:500;color:#EDE0C4}
+.ft-wa-sub{font-size:10px;color:rgba(237,224,196,.4);margin-top:1px}
+.ft-nav{display:flex;flex-wrap:wrap;gap:6px 16px}
+.ft-nav a{font-size:12px;color:rgba(237,224,196,.45);transition:color .15s}
+.ft-nav a:hover{color:#C09848}
+.ft-sep{height:1px;background:rgba(255,255,255,.07)}
+.ft-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px}
+.ft-copy{font-size:11px;color:rgba(237,224,196,.35)}
+.ft-parent{font-size:9px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(237,224,196,.35)}
+.ft-parent em{font-style:normal;color:rgba(168,129,58,.6)}
+
+/* ── LIGHTBOX ────────────────────────────────────────────── */
+.lb{position:fixed;inset:0;z-index:9000;background:rgba(4,3,2,.97);display:none;flex-direction:column;opacity:0;transition:opacity .25s ease}
+.lb.open{display:flex}.lb.vis{opacity:1}
+.lb-top{position:absolute;top:0;left:0;right:0;z-index:2;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(to bottom,rgba(4,3,2,.75),transparent)}
+.lb-name{font-family:var(--tf);font-size:16px;font-weight:300;color:#EDE0C4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 52px)}
+.lb-close{width:36px;height:36px;border-radius:50%;border:1px solid rgba(237,224,196,.2);background:rgba(255,255,255,.07);color:#EDE0C4;font-size:22px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .15s;flex-shrink:0}
+.lb-close:hover{background:rgba(255,255,255,.14)}
+.lb-stage{flex:1;display:flex;align-items:center;justify-content:center;padding:68px 56px 48px;position:relative;overflow:hidden}
+#lb-img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:var(--r2);box-shadow:0 8px 48px rgba(0,0,0,.55);transition:opacity .2s ease;display:block}
+#lb-img.fade{opacity:0}
+.lb-arr{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:1px solid rgba(237,224,196,.18);background:rgba(255,255,255,.05);color:#EDE0C4;font-size:26px;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transition:background .15s,opacity .25s;line-height:1}
+.lb.vis .lb-arr{opacity:1}.lb-arr:hover{background:rgba(255,255,255,.12)}
+#lb-prev{left:8px}#lb-next{right:8px}
+.lb-ctr{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:600;letter-spacing:.2em;color:rgba(237,224,196,.35);white-space:nowrap}
+@media(max-width:500px){.lb-stage{padding:58px 48px 40px}}
+
+/* ── Hero → Spaces bridge ───────────────────────────────────
+   White space with a quiet attribution line.
+   Luxury through restraint — nothing more needed.
+────────────────────────────────────────────────────────── */
+.hero-bridge{
+  background:#F5F1E8;
+  padding:clamp(36px,6vw,56px) 0;
+}
+.hero-bridge-inner{
+  display:flex;align-items:center;gap:16px;
+}
+.hero-bridge-line{
+  flex:1;height:1px;
+  background:linear-gradient(to right,transparent,rgba(168,129,58,.25),transparent);
+}
+.hero-bridge-text{
+  font-size:10px;font-weight:600;letter-spacing:.22em;
+  text-transform:uppercase;color:rgba(40,35,29,.4);
+  white-space:nowrap;flex-shrink:0;
+}
+
+/* ══ WELCOME TO WIMA SIGNATURE ══════════════════════════════
+   Parchment background. Premium typography. Generous space.
+   Welcoming, aspirational, sophisticated.
+════════════════════════════════════════════════════════════ */
+.welcome{
+  background:#F5F1E8;
+  padding:clamp(56px,10vw,96px) 0 clamp(52px,9vw,88px);
+  position:relative;
+}
+/* Hairline top border — subtle entry from the hero bridge */
+.welcome::before{
+  content:'';display:block;
+  height:1px;
+  background:linear-gradient(to right,transparent,rgba(168,129,58,.22),transparent);
+  margin-bottom:0;
+}
+
+/* Overline */
+.wlc-overline{
+  font-size:10px;font-weight:700;letter-spacing:.28em;
+  text-transform:uppercase;color:rgba(168,129,58,.8);
+  margin-bottom:clamp(16px,3vw,24px);
+  display:flex;align-items:center;gap:12px;
+}
+.wlc-overline::before{
+  content:'';width:24px;height:1px;
+  background:rgba(168,129,58,.5);flex-shrink:0;
+}
+
+/* Headline — Cormorant, large, light weight */
+.wlc-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(32px,8vw,58px);
+  font-weight:300;
+  line-height:1.05;
+  letter-spacing:-.02em;
+  color:#1C1810;
+  margin-bottom:clamp(24px,4vw,36px);
+}
+.wlc-h em{
+  font-style:italic;
+  color:#A8813A;
+}
+
+/* Divider — horizontal rule with diamond centre */
+.wlc-rule{
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:clamp(28px,5vw,44px);
+  max-width:320px;
+}
+.wlc-rule-line{
+  flex:1;height:1px;
+  background:linear-gradient(to right,rgba(168,129,58,.3),rgba(168,129,58,.08));
+}
+.wlc-rule:last-of-type .wlc-rule-line{
+  background:linear-gradient(to left,rgba(168,129,58,.3),rgba(168,129,58,.08));
+}
+.wlc-rule-diamond{
+  width:6px;height:6px;flex-shrink:0;
+  border:1px solid rgba(168,129,58,.45);
+  transform:rotate(45deg);
+  background:rgba(168,129,58,.08);
+}
+
+/* Body copy */
+.wlc-body{
+  display:flex;flex-direction:column;
+  gap:clamp(14px,2.5vw,20px);
+  margin-bottom:clamp(32px,6vw,52px);
+  max-width:52ch;
+}
+.wlc-p{
+  font-size:clamp(14px,2.4vw,16px);
+  font-weight:300;
+  color:rgba(40,35,29,.72);
+  line-height:1.78;
+}
+/* Lead paragraph — slightly more presence */
+.wlc-p-lead{
+  font-size:clamp(15px,2.6vw,17px);
+  color:rgba(40,35,29,.82);
+  font-weight:400;
+}
+
+/* CTA links — quiet, elegant */
+.wlc-cta{
+  display:flex;flex-wrap:wrap;align-items:center;
+  gap:clamp(12px,3vw,24px);
+}
+.wlc-lk{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:12px;font-weight:600;letter-spacing:.08em;
+  color:#A8813A;
+  transition:color .18s,gap .18s;
+  text-decoration:none;
+}
+.wlc-lk:hover{color:#1C1810;gap:10px}
+.wlc-lk svg{flex-shrink:0;transition:transform .18s}
+.wlc-lk:hover svg{transform:translateX(2px)}
+/* Separator dot between links */
+.wlc-sep{
+  width:3px;height:3px;border-radius:50%;
+  background:rgba(168,129,58,.35);flex-shrink:0;
+}
+@media(max-width:400px){.wlc-sep{display:none}}
+
+.spaces-h em{font-style:italic;color:#C09848}
+
+/* ── Spaces section intro paragraphs ───────────────────────*/
+.spaces-intro{
+  display:flex;flex-direction:column;
+  gap:clamp(10px,2vw,16px);
+  max-width:52ch;
+}
+.spaces-p{
+  font-size:clamp(13px,2.3vw,15px);
+  font-weight:300;
+  color:rgba(237,224,196,.62);
+  line-height:1.75;
+}
+.spaces-p-lead{
+  font-size:clamp(14px,2.5vw,16px);
+  font-weight:400;
+  color:rgba(237,224,196,.78);
+  line-height:1.72;
+}
+
+.spaces-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(34px,8.5vw,58px);
+  font-weight:300;
+  line-height:1.04;
+  letter-spacing:-.022em;
+  color:#EDE0C4;
+  margin-bottom:clamp(20px,4vw,32px);
+}
+.spaces-h em{font-style:italic;color:#C09848}
+
+/* ── Why section intro ──────────────────────────────────────*/
+.why-intro{
+  display:flex;flex-direction:column;
+  gap:clamp(10px,2vw,16px);
+  max-width:52ch;
+  margin-bottom:clamp(28px,5vw,44px);
+}
+.why-p{
+  font-size:clamp(13px,2.3vw,15px);
+  font-weight:300;
+  color:rgba(237,224,196,.62);
+  line-height:1.75;
+}
+.why-p-lead{
+  font-size:clamp(14px,2.5vw,16px);
+  font-weight:400;
+  color:rgba(237,224,196,.8);
+  line-height:1.72;
+}
+/* Why section 6-card grid — 2-col on tablet, 3-col on desktop */
+@media(min-width:600px){
+  .wbc{grid-template-columns:1fr 1fr}
+}
+@media(min-width:900px){
+  .wbc{grid-template-columns:1fr 1fr 1fr}
+}
+
+.wbc-card:hover .wbc-ico{background:rgba(168,129,58,.22);border-color:rgba(168,129,58,.5);transform:scale(1.06)}
+
+/* ══ PROJECT PORTFOLIO CARDS ══════════════════════════════════
+
+   Premium architecture studio layout.
+   Each project: large featured image + thumbnail strip + info.
+   Grouped, consistent, expandable.
+
+════════════════════════════════════════════════════════════ */
+
+/* Section header */
+.proj-hd{padding:clamp(40px,7vw,64px) 0 clamp(28px,5vw,44px)}
+.proj-ey{
+  display:inline-flex;align-items:center;gap:7px;
+  background:rgba(168,129,58,.1);border:1px solid rgba(168,129,58,.25);
+  border-radius:20px;padding:4px 11px;margin-bottom:12px;
+}
+.proj-ey-dot{width:4px;height:4px;border-radius:50%;background:#A8813A;flex-shrink:0}
+.proj-ey-txt{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#A8813A}
+.proj-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(34px,8.5vw,58px);
+  font-weight:300;line-height:1.04;letter-spacing:-.022em;
+  color:#1C1810;margin-bottom:12px;
+}
+.proj-h em{font-style:italic;color:#A8813A}
+.proj-lead{
+  font-size:clamp(13px,2.3vw,15px);font-weight:300;
+  color:rgba(40,35,29,.62);line-height:1.75;
+  max-width:52ch;
+}
+
+/* Project list */
+#projList{
+  display:flex;flex-direction:column;
+  gap:clamp(28px,5vw,48px);
+  padding-bottom:clamp(44px,8vw,72px);
+}
+
+/* Individual project card */
+.proj-card{
+  background:#fff;
+  border:1px solid rgba(40,35,29,.08);
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 2px 8px rgba(40,35,29,.06),0 6px 20px rgba(40,35,29,.05);
+  transition:box-shadow .25s ease,transform .25s ease;
+}
+.proj-card:hover{
+  box-shadow:0 4px 14px rgba(40,35,29,.09),0 10px 32px rgba(40,35,29,.09);
+  transform:translateY(-2px);
+}
+
+/* Image wrapper */
+.pc-img-wrap{background:#1C1810}
+
+/* Featured image */
+.pc-img{
+  position:relative;
+  height:clamp(240px,56vw,480px);
+  overflow:hidden;
+  cursor:pointer;
+}
+.pc-img img{
+  width:100%;height:100%;
+  object-fit:cover;object-position:center center;
+  filter:brightness(.88);
+  transition:transform 1.2s ease,filter .45s ease;
+  will-change:transform;
+  display:block;
+}
+.proj-card:hover .pc-img img{transform:scale(1.03);filter:brightness(.96)}
+.pc-img-ov{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(28,24,16,.55) 0%,transparent 45%);
+  transition:opacity .3s ease;
+  pointer-events:none;
+}
+/* Zoom icon — appears on hover */
+.pc-img-zoom{
+  position:absolute;top:14px;right:14px;z-index:2;
+  width:36px;height:36px;border-radius:50%;
+  background:rgba(245,241,232,.92);backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transform:scale(.85);
+  transition:opacity .25s ease,transform .25s ease;
+  color:#1C1810;
+  pointer-events:none;
+}
+.proj-card:hover .pc-img-zoom,
+.pc-img:focus .pc-img-zoom{opacity:1;transform:scale(1)}
+
+/* Thumbnail strip */
+.pc-thumbs{
+  display:flex;gap:3px;
+  background:#0C0A07;
+  padding:3px;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.pc-thumbs::-webkit-scrollbar{display:none}
+.pc-thumb{
+  flex:0 0 auto;
+  width:clamp(64px,16vw,96px);
+  height:clamp(44px,11vw,66px);
+  border-radius:4px;
+  overflow:hidden;
+  cursor:pointer;
+  border:2px solid transparent;
+  transition:border-color .18s ease,opacity .18s ease;
+  padding:0;background:none;
+  opacity:.55;
+}
+.pc-thumb img{width:100%;height:100%;object-fit:cover;object-position:center center;display:block}
+.pc-thumb.active{border-color:#A8813A;opacity:1}
+.pc-thumb:hover{opacity:.85}
+
+/* Project info */
+.pc-info{
+  padding:clamp(18px,4vw,28px) clamp(16px,4vw,24px) clamp(16px,3.5vw,22px);
+}
+.pc-meta{
+  display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;
+}
+.pc-cat{
+  font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
+  color:#A8813A;background:rgba(168,129,58,.1);border:1px solid rgba(168,129,58,.22);
+  border-radius:20px;padding:3px 10px;
+}
+.pc-year{
+  font-size:10px;font-weight:500;color:rgba(40,35,29,.4);
+  letter-spacing:.08em;
+}
+.pc-name{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(20px,5vw,28px);
+  font-weight:400;color:#1C1810;
+  line-height:1.1;margin-bottom:6px;letter-spacing:-.01em;
+}
+.pc-loc{
+  display:flex;align-items:center;gap:5px;
+  font-size:12px;font-weight:500;letter-spacing:.06em;
+  color:rgba(40,35,29,.5);margin-bottom:12px;
+}
+.pc-loc svg{flex-shrink:0;color:#A8813A}
+.pc-desc{
+  font-size:clamp(13px,2.3vw,14px);font-weight:300;
+  color:rgba(40,35,29,.65);line-height:1.72;
+  margin-bottom:14px;max-width:52ch;
+}
+/* Tags */
+.pc-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.pc-tag{
+  font-size:9px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(40,35,29,.5);background:rgba(40,35,29,.05);
+  border:1px solid rgba(40,35,29,.1);border-radius:4px;padding:3px 8px;
+}
+/* Footer */
+.pc-foot{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-top:14px;border-top:1px solid rgba(40,35,29,.07);flex-wrap:wrap;gap:8px;
+}
+.pc-wa{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:12px;font-weight:600;letter-spacing:.04em;
+  color:#1C1810;background:#F5F1E8;
+  border:1px solid rgba(40,35,29,.12);
+  border-radius:6px;padding:9px 14px;
+  transition:background .18s,border-color .18s,transform .15s;
+}
+.pc-wa:hover{background:#EDE0C4;border-color:rgba(168,129,58,.3);transform:translateY(-1px)}
+.pc-wa svg{flex-shrink:0}
+.pc-count{
+  font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:rgba(40,35,29,.35);
+}
+
+/* Desktop: wider images */
+@media(min-width:600px){
+  .pc-img{height:clamp(280px,42vw,480px)}
+  .pc-thumb{
+    width:clamp(80px,12vw,110px);
+    height:clamp(54px,8vw,76px);
+  }
+}
+@media(min-width:900px){
+  .proj-card{display:grid;grid-template-columns:1fr 1fr}
+  .pc-img-wrap{border-radius:0}
+  .pc-img{height:100%;min-height:320px}
+  .pc-info{display:flex;flex-direction:column;justify-content:center}
+  .pc-thumbs{padding:4px}
+  .pc-thumb{
+    width:clamp(80px,8vw,100px);
+    height:clamp(54px,5.5vw,68px);
+  }
+}
+
+/* ══ PROJECT FILTER BAR ══════════════════════════════════════
+
+   Pill buttons. Clean. Lightweight. Mobile-friendly.
+   Active state: gold fill. Hover: gold border.
+
+════════════════════════════════════════════════════════════ */
+.pf-bar{
+  display:flex;
+  flex-wrap:nowrap;
+  gap:8px;
+  margin-top:clamp(22px,4vw,32px);
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  padding-bottom:4px;
+}
+.pf-bar::-webkit-scrollbar{display:none}
+.pf-btn{
+  display:inline-flex;align-items:center;
+  font-family:'DM Sans',system-ui,sans-serif;
+  font-size:11px;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;
+  color:rgba(40,35,29,.55);
+  background:#fff;
+  border:1.5px solid rgba(40,35,29,.14);
+  border-radius:20px;
+  padding:7px 16px;
+  cursor:pointer;
+  transition:color .18s ease,background .18s ease,
+             border-color .18s ease,transform .15s ease;
+  white-space:nowrap;
+  -webkit-tap-highlight-color:transparent;
+}
+.pf-btn:hover{
+  color:#A8813A;
+  border-color:rgba(168,129,58,.4);
+  background:rgba(168,129,58,.06);
+}
+.pf-btn.active{
+  color:#fff;
+  background:#A8813A;
+  border-color:#A8813A;
+  box-shadow:0 2px 8px rgba(168,129,58,.3);
+}
+.pf-btn.active:hover{
+  background:#C09848;border-color:#C09848;transform:none;
+}
+
+/* Card hidden state during filter */
+.proj-card.pf-hidden{
+  display:none;
+}
+
+/* Empty state message */
+.pf-empty{
+  display:none;
+  text-align:center;
+  padding:clamp(44px,8vw,64px) 0;
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(18px,4vw,24px);
+  font-weight:300;
+  color:rgba(40,35,29,.45);
+  font-style:italic;
+}
+.pf-empty.visible{display:block}
+
+.feat-space{
+  background:#F5F1E8;
+  padding-bottom:0;
+}
+
+/* Section header */
+.feat-hd{
+  padding:clamp(40px,7vw,64px) 0 clamp(20px,4vw,32px);
+}
+.feat-ey{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(168,129,58,.1);border:1px solid rgba(168,129,58,.25);
+  border-radius:20px;padding:4px 12px;margin-bottom:12px;
+}
+.feat-ey-dot{
+  width:5px;height:5px;border-radius:50%;
+  background:#A8813A;flex-shrink:0;
+}
+.feat-ey-txt{
+  font-size:10px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:#A8813A;
+}
+.feat-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(28px,7vw,50px);
+  font-weight:300;line-height:1.05;
+  letter-spacing:-.02em;color:#1C1810;
+  margin:0;
+}
+.feat-h em{font-style:italic;color:#A8813A}
+
+/* Full-width image wrapper — 16:9 ratio on desktop, taller on mobile */
+.feat-img-wrap{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+}
+.feat-img-wrap img{
+  width:100%;
+  height:clamp(280px,55vw,620px);
+  object-fit:cover;
+  object-position:center center;
+  display:block;
+  filter:brightness(.88);
+  transition:transform 2s ease,filter .6s ease;
+  will-change:transform;
+}
+.feat-img-wrap:hover img{
+  transform:scale(1.03);
+  filter:brightness(.94);
+}
+
+/* Bottom gradient for caption */
+.feat-img-ov{
+  position:absolute;inset:0;
+  background:linear-gradient(
+    to top,
+    rgba(12,9,6,.75) 0%,
+    rgba(12,9,6,.15) 35%,
+    transparent      60%
+  );
+  pointer-events:none;
+}
+
+/* Caption — bottom left */
+.feat-img-caption{
+  position:absolute;
+  bottom:0;left:0;right:0;
+  padding:clamp(20px,4vw,36px) clamp(20px,5vw,44px) clamp(24px,4vw,40px);
+  display:flex;flex-direction:column;gap:5px;
+}
+.feat-caption-label{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(22px,5vw,38px);
+  font-weight:300;
+  color:#F5F1E8;
+  letter-spacing:-.01em;
+  line-height:1.1;
+}
+.feat-caption-sub{
+  font-family:'DM Sans',system-ui,sans-serif;
+  font-size:11px;font-weight:500;letter-spacing:.12em;
+  text-transform:uppercase;
+  color:rgba(245,241,232,.55);
+}
+
+/* Thin gold rule between featured and spaces grid */
+.feat-space::after{
+  content:'';display:block;
+  height:1px;
+  background:linear-gradient(to right,transparent,rgba(168,129,58,.3),transparent);
+  margin-top:0;
+}
+
+/* Prevent nav (62px) from covering section anchors */
+html{scroll-padding-top:70px}
+
+/* Body — no overlap with sticky nav */
+body{padding-top:0} /* nav is sticky not fixed */
+
+/* Tablet tweaks */
+@media(min-width:480px) and (max-width:860px){
+  .wlc-h,.feat-h,.spaces-h,.proj-h,.why-h,.cta-h{
+    font-size:clamp(28px,6vw,44px);
+  }
+  .pc-img{height:clamp(220px,40vw,360px)}
+}
+
+/* ══ SIGNATURE SPACES GRID ══════════════════════════════════ */
+.sp-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:6px;
+  width:100%;
+  max-width:1160px;
+  margin:0 auto;
+  padding:0 clamp(16px,5vw,28px) clamp(32px,6vw,56px);
+}
+@media(min-width:600px){
+  .sp-grid{grid-template-columns:1fr 1fr;gap:8px}
+}
+@media(min-width:960px){
+  .sp-grid{
+    grid-template-columns:1fr 1fr 1fr;
+    gap:10px;
+    padding:0 clamp(16px,5vw,28px) clamp(40px,7vw,72px);
+  }
+}
+
+/* Card */
+.sp-card{
+  position:relative;
+  display:block;
+  overflow:hidden;
+  background:#0f0d0a;
+  border-radius:6px;
+  border:1px solid rgba(168,129,58,.15);
+  cursor:pointer;
+  box-shadow:0 2px 12px rgba(0,0,0,.22);
+  transition:box-shadow .3s ease,transform .3s ease,border-color .3s ease;
+}
+.sp-card:hover{
+  box-shadow:0 6px 28px rgba(0,0,0,.34);
+  transform:translateY(-3px);
+  border-color:rgba(168,129,58,.35);
+}
+
+/* Image container — 4:3 ratio, minimum 300px desktop */
+.sp-card-img{
+  position:relative;
+  width:100%;
+  padding-top:75%;
+  overflow:hidden;
+  background:#1a1510;
+}
+@media(min-width:960px){
+  .sp-card-img{padding-top:0;height:320px}
+}
+@media(min-width:1200px){
+  .sp-card-img{height:360px}
+}
+
+/* Image — covers container, no stretch */
+.sp-card-img img{
+  position:absolute;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center center;
+  display:block;
+  filter:brightness(.82);
+  transform:scale(1);
+  transition:transform 1.6s cubic-bezier(.25,.46,.45,.94),filter .5s ease;
+  will-change:transform;
+}
+.sp-card:hover .sp-card-img img{
+  transform:scale(1.06);
+  filter:brightness(.93);
+}
+
+/* Overlay — bottom only, light touch */
+.sp-card-ov{
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:55%;
+  background:linear-gradient(to top,rgba(6,4,2,.80) 0%,transparent 100%);
+  pointer-events:none;
+  z-index:1;
+}
+
+/* Category pill */
+.sp-card-cat{
+  position:absolute;
+  top:10px;right:10px;
+  z-index:3;
+  font-family:'DM Sans',system-ui,sans-serif;
+  font-size:8px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#C09848;
+  background:rgba(6,4,2,.68);
+  backdrop-filter:blur(6px);
+  border:1px solid rgba(168,129,58,.2);
+  border-radius:20px;
+  padding:3px 8px;
+  pointer-events:none;
+}
+
+/* Text */
+.sp-card-text{
+  position:absolute;
+  bottom:0;left:0;right:0;
+  z-index:2;
+  padding:10px 14px 14px;
+  pointer-events:none;
+}
+.sp-card-num{
+  display:block;
+  font-family:'DM Sans',system-ui,sans-serif;
+  font-size:8px;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;
+  color:rgba(192,152,72,.65);
+  margin-bottom:4px;
+}
+.sp-card-name{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:clamp(15px,3vw,21px);
+  font-weight:400;
+  line-height:1.1;
+  color:#F5F1E8;
+  margin:0;
+  letter-spacing:.01em;
+}
+@media(min-width:960px){
+  .sp-card-text{padding:14px 18px 18px}
+  .sp-card-name{font-size:clamp(16px,1.7vw,21px)}
+}
+
+/* ══ HERO SECTION ════════════════════════════════════════════
+   Full viewport. Image is the hero.
+   ONE headline, centred. Premium stagger animation.
+═══════════════════════════════════════════════════════════ */
+
+.hero{
+  position:relative;
+  width:100%;
+  min-height:100svh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  background:#1C1810;
+}
+
+/* Background image */
+.hero-bg{
+  position:absolute;
+  inset:0;
+  z-index:0;
+}
+.hero-bg img{
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center 35%;
+  filter:brightness(.78);
+  transform:scale(1.05);
+  transition:transform 3.5s cubic-bezier(.25,.46,.45,.94);
+  will-change:transform;
+  display:block;
+}
+.hero-bg.in img{
+  transform:scale(1);
+}
+
+/* Overlay — subtle vignette, image stays visible */
+.hero-bg::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:
+    radial-gradient(ellipse at center, transparent 40%, rgba(14,11,7,.45) 100%),
+    linear-gradient(to bottom, rgba(14,11,7,.15) 0%, rgba(14,11,7,.35) 100%);
+}
+
+/* Grain texture */
+.hero-grain{
+  position:absolute;inset:0;z-index:1;
+  opacity:.025;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:200px;
+}
+
+/* Content wrapper — perfectly centred */
+.hero-c{
+  position:relative;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  padding:clamp(80px,14vw,120px) clamp(20px,6vw,48px);
+  text-align:center;
+}
+
+/* Headline */
+.hero-h{
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-weight:300;
+  font-size:clamp(38px,9vw,82px);
+  line-height:1.08;
+  letter-spacing:-.02em;
+  color:#F5F1E8;
+  margin:0;
+  overflow:hidden;
+}
+
+/* Each line — starts hidden, reveals upward */
+.hero-hl{
+  display:block;
+  opacity:0;
+  transform:translateY(100%);
+  transition:
+    opacity  .9s cubic-bezier(.25,.46,.45,.94),
+    transform .9s cubic-bezier(.25,.46,.45,.94);
+}
+.hero-hl.in{
+  opacity:1;
+  transform:translateY(0);
+}
+/* Stagger delays */
+.hero-hl:nth-child(1){transition-delay:.5s}
+.hero-hl:nth-child(2){transition-delay:.72s}
+.hero-hl:nth-child(3){
+  transition-delay:.94s;
+  font-style:italic;
+  color:#C09848;
+}
+
+/* Gold rule beneath headline — fades in last */
+.hero-rule{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin-top:clamp(16px,3vw,28px);
+  opacity:0;
+  transition:opacity .8s ease 1.3s;
+}
+.hero-rule.in{opacity:1}
+.hero-rule-line{
+  width:clamp(32px,6vw,64px);
+  height:1px;
+  background:rgba(192,152,72,.55);
+}
+.hero-rule-dia{
+  width:5px;height:5px;
+  border:1px solid rgba(192,152,72,.6);
+  transform:rotate(45deg);
+  flex-shrink:0;
+}
+
+/* Mobile */
+@media(max-width:480px){
+  .hero-h{font-size:clamp(32px,9.5vw,52px)}
+}
+
+
+.sig-drawer{position:fixed;inset:0;z-index:9000;visibility:hidden;pointer-events:none}
+.sig-drawer.open{visibility:visible;pointer-events:all}
+.sig-drawer-bg{position:absolute;inset:0;background:rgba(28,24,16,.55);opacity:0;transition:opacity .3s ease;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.sig-drawer.open .sig-drawer-bg{opacity:1}
+.sig-drawer-panel{position:absolute;top:0;right:0;bottom:0;width:min(290px,82vw);background:#F5F1E8;border-left:1px solid rgba(168,129,58,.2);display:flex;flex-direction:column;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto}
+.sig-drawer.open .sig-drawer-panel{transform:none}
+.sig-drawer-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;border-bottom:1px solid rgba(40,35,29,.1);flex-shrink:0}
+.sig-drawer-logo{font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:400;color:#1C1810}
+.sig-drawer-logo em{font-style:normal;color:#A8813A}
+.sig-drawer-close{width:30px;height:30px;border-radius:50%;border:1px solid rgba(40,35,29,.15);background:none;color:#5C5347;font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.sdl{display:flex;align-items:center;padding:13px 18px;font-size:14px;font-weight:500;color:#28231D;border-bottom:1px solid rgba(40,35,29,.07);transition:background .15s;text-decoration:none}
+.sdl:hover{background:rgba(168,129,58,.06)}
+.sdl-wa{margin:8px 12px;border-radius:8px;padding:12px 14px;background:rgba(34,197,94,.07);border:1px solid rgba(34,197,94,.2);color:#15803D;font-weight:600;display:flex;align-items:center;gap:8px}
+
+/* ── WhatsApp Share Deal button ─────────────────────────── */
+.wa-share-wrap{
+  display:flex;flex-direction:column;align-items:center;
+  gap:10px;
+  margin-top:clamp(20px,3.5vw,28px);
+}
+.wa-share-btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:9px;
+  padding:12px 26px;
+  background:#22C55E;
+  color:#fff;
+  border-radius:8px;
+  font-size:13px;font-weight:700;letter-spacing:.04em;
+  text-decoration:none;
+  border:none;cursor:pointer;
+  transition:background .2s ease,transform .15s ease,box-shadow .2s ease;
+  box-shadow:0 2px 12px rgba(34,197,94,.25);
+}
+.wa-share-btn:hover{
+  background:#16A34A;
+  transform:translateY(-1px);
+  box-shadow:0 4px 18px rgba(34,197,94,.35);
+}
+.wa-share-btn svg{flex-shrink:0;width:16px;height:16px;fill:currentColor}
+.wa-share-hint{
+  font-size:11.5px;font-weight:400;
+  color:rgba(40,35,29,.48);
+  letter-spacing:.02em;
+  text-align:center;
+  font-style:italic;
+}
+.wa-share-hint--light{color:rgba(245,241,232,.45)}
+
+/* Wide-screen text readability */
+.h2,.lead,.cta-sub,.why-desc{max-width:72ch}
+.sp-grid{box-sizing:border-box}
+</style>
+</head>
+<body>
+<svg style="display:none" aria-hidden="true">
+  <symbol id="wa" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.1.547 4.071 1.503 5.788L0 24l6.383-1.476A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.794 9.794 0 01-4.988-1.364l-.358-.214-3.717.859.875-3.617-.235-.371A9.79 9.79 0 012.182 12C2.182 6.575 6.575 2.182 12 2.182S21.818 6.575 21.818 12 17.425 21.818 12 21.818z"/>
+  </symbol>
+  <symbol id="shd" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></symbol>
+  <symbol id="eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></symbol>
+  <symbol id="box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></symbol>
+  <symbol id="chk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="trk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 4v4h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+  <symbol id="phn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></symbol>
+</svg>
+
+<!-- ══ NAV ════════════════════════════════════════════════ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div>
+      <a href="#" class="nav-logo">Wima <em>Signature</em></a>
+      <span class="nav-logo-sub">A Wima Builders Brand</span>
+    </div>
+    <div class="nav-links" role="menubar">
+      <a href="#s-featured" class="nav-lk">Featured</a>
+      <a href="#s-spaces"   class="nav-lk">Spaces</a>
+      <a href="#s-projects" class="nav-lk">Projects</a>
+      <a href="#s-why"      class="nav-lk">Why Wima</a>
+      <a href="#s-cta"      class="nav-lk">Transform</a>
+      <a href="index.html"  class="nav-lk nav-hub">← Deal Hub</a>
+    </div>
+    <div class="nav-r">
+      <button class="sig-burger" id="sigBurger" aria-label="Open menu">
+        <span class="sig-burger-bar"></span>
+        <span class="sig-burger-bar"></span>
+        <span class="sig-burger-bar"></span>
+      </button>
+      <a href="https://wa.me/233243304777?text=Hi+Wima+Signature%2C+I+want+to+start+a+project."
+         class="nav-wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>
+        Talk To Wima
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE DRAWER -->
+<div class="sig-drawer" id="sigDrawer" aria-hidden="true">
+  <div class="sig-drawer-bg" id="sigDrawerBg"></div>
+  <div class="sig-drawer-panel">
+    <div class="sig-drawer-head">
+      <span class="sig-drawer-logo">Wima <em>Signature</em></span>
+      <button class="sig-drawer-close" id="sigDrawerClose">&#215;</button>
+    </div>
+    <a href="#s-spaces"   class="sdl" onclick="closeSigDrawer()">Signature Spaces</a>
+    <a href="#s-projects" class="sdl" onclick="closeSigDrawer()">Featured Projects</a>
+    <a href="#s-why"      class="sdl" onclick="closeSigDrawer()">Why Wima Signature</a>
+    <a href="#s-cta"      class="sdl" onclick="closeSigDrawer()">Start Your Transformation</a>
+    <a href="index.html"  class="sdl" onclick="closeSigDrawer()">← Back to Deal Hub</a>
+    <a href="https://wa.me/233243304777?text=Hi+Wima+Signature%2C+I+want+to+start+a+project."
+       class="sdl sdl-wa" target="_blank" rel="noopener" onclick="closeSigDrawer()">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><use href="#wa"/></svg>
+      Request Pricing
+    </a>
+  </div>
+</div>
+
+<!-- ══ §1 HERO ═════════════════════════════════════════════ -->
+<section class="hero" id="s-hero">
+  <div class="hero-bg" id="heroBg">
+    <img src="https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781780043/sig_upload_01_aybdbk.jpg"
+         alt="Premium interior — warm ceiling, elegant living space"
+         loading="eager" decoding="async">
+  </div>
+  <div class="hero-grain" aria-hidden="true"></div>
+
+  <div class="hero-c" id="heroC">
+    <div>
+      <h1 class="hero-h">
+        <em class="hero-hl">Transforming Spaces.</em>
+        <em class="hero-hl">One Signature</em>
+        <em class="hero-hl">Finish At A Time.</em>
+      </h1>
+      <div class="hero-rule" id="heroRule">
+        <div class="hero-rule-line"></div>
+        <div class="hero-rule-dia"></div>
+        <div class="hero-rule-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WELCOME TO WIMA SIGNATURE ══════════════════════════ -->
+<section class="welcome" id="s-welcome">
+  <div class="W">
+
+    <!-- Overline -->
+    <p class="wlc-overline rv">Welcome to Wima Signature</p>
+
+    <!-- Headline -->
+    <h2 class="wlc-h rv d1">
+      Where Inspiration Meets<br>
+      <em>Beautiful Execution.</em>
+    </h2>
+
+    <!-- Divider -->
+    <div class="wlc-rule rv d2" aria-hidden="true">
+      <div class="wlc-rule-line"></div>
+      <div class="wlc-rule-diamond"></div>
+      <div class="wlc-rule-line"></div>
+    </div>
+
+    <!-- Introduction — three paragraphs, each a breath -->
+    <div class="wlc-body rv d3">
+      <p class="wlc-p wlc-p-lead">
+        Wima Signature is a curated destination for homeowners, developers and
+        design-conscious clients seeking inspiration for beautiful interiors and
+        exceptional finishes.
+      </p>
+      <p class="wlc-p">
+        From elegant ceilings and contemporary living spaces to commercial
+        interiors and hospitality environments, Wima Signature showcases ideas,
+        finishes and projects that inspire better spaces.
+      </p>
+      <p class="wlc-p">
+        Whether you are building, renovating or simply exploring possibilities,
+        Wima Signature helps transform vision into reality.
+      </p>
+    </div>
+
+    <!-- Quiet CTA — not pushy, just present -->
+    <div class="wlc-cta rv d4">
+      <a href="#s-spaces" class="wlc-lk">
+        Explore Signature Spaces
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" width="13" height="13" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+      <span class="wlc-sep" aria-hidden="true"></span>
+      <a href="#s-projects" class="wlc-lk">
+        View Completed Projects
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" width="13" height="13" aria-hidden="true">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══ FEATURED SPACE ══════════════════════════════════════ -->
+<section class="feat-space" id="s-featured">
+  <div class="W">
+    <div class="feat-hd rv">
+      <p class="feat-ey">
+        <span class="feat-ey-dot"></span>
+        <span class="feat-ey-txt">Featured Space</span>
+      </p>
+      <h2 class="feat-h">Design that <em>defines a room.</em></h2>
+    </div>
+  </div>
+
+  <!-- Full-width featured image -->
+  <div class="feat-img-wrap rv d1">
+    <img src="" data-imgkey="lr"
+         alt="Elegant living space — premium interior finishing"
+         loading="lazy" decoding="async">
+    <div class="feat-img-ov"></div>
+    <div class="feat-img-caption">
+      <span class="feat-caption-label">Elegant Living Room</span>
+      <span class="feat-caption-sub">Premium residential finishing — Wima Signature</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ §2 SIGNATURE SPACES ══════════════════════════════════ -->
+<section class="spaces sec-dark" id="s-spaces">
+  <div class="W">
+    <div class="spaces-hd">
+      <p class="spaces-ey rv">
+        <span class="spaces-ey-dot"></span>
+        <span class="spaces-ey-txt">Curated Spaces</span>
+      </p>
+      <h2 class="spaces-h rv d1">Signature <em>Spaces.</em></h2>
+      <div class="spaces-intro rv d2">
+        <p class="spaces-p spaces-p-lead">
+          Explore a curated collection of interiors, finishes and environments
+          that demonstrate the power of thoughtful design and quality execution.
+        </p>
+        <p class="spaces-p">
+          From elegant homes and contemporary ceilings to hospitality and
+          commercial spaces, every project reflects a commitment to beauty,
+          functionality and craftsmanship.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sp-grid">
+    <div class="sp-card" data-idx="0">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="i1" alt="Modern coffered ceiling with LED cove lighting" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Ceilings</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">01</span>
+        <h3 class="sp-card-name">Modern Ceilings</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="1">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="bed1" alt="Luxury bedroom with warm LED cove ceiling" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Residential</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">02</span>
+        <h3 class="sp-card-name">Luxury Bedrooms</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="2">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="sp_bed2" alt="Chic monochrome bedroom with chandelier" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Residential</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">03</span>
+        <h3 class="sp-card-name">Monochrome Bedroom</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="3">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="sp_bed3" alt="Modern purple bedroom with LED cove lighting" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Residential</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">04</span>
+        <h3 class="sp-card-name">Purple Bedroom Suite</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="4">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="sp_lr2" alt="Art Deco living room with arched niche" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Residential</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">05</span>
+        <h3 class="sp-card-name">Art Deco Living Room</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="5">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="sp_lr3" alt="Contemporary beige living room with ambient ceiling" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Residential</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">06</span>
+        <h3 class="sp-card-name">Contemporary Living</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="6">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="i4" alt="Restaurant interior with premium finishes" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Hospitality</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">07</span>
+        <h3 class="sp-card-name">Restaurants &amp; Hospitality</h3>
+      </div>
+    </div>
+    <div class="sp-card" data-idx="7">
+      <div class="sp-card-img">
+        <img src="" data-imgkey="office1" alt="Commercial office with acoustic ceiling" loading="lazy" decoding="async">
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">Commercial</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">08</span>
+        <h3 class="sp-card-name">Commercial Interiors</h3>
+      </div>
+    </div>
+    <div class="sp-card sp-card--placeholder" id="popCeilingsCard">
+      <div class="sp-card-img" style="display:flex;align-items:center;justify-content:center">
+        <div style="text-align:center">
+          <svg viewBox="0 0 40 40" width="34" height="34" fill="none" stroke="rgba(212,168,67,.75)" stroke-width="1.4" style="margin:0 auto 8px;display:block">
+            <path d="M5 9h9c0 6 5 6 5 12s6 6 6 10h10"/>
+            <path d="M5 9v3M35 31v3"/>
+          </svg>
+          <span style="display:block;font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(245,241,232,.4)">Image placeholder</span>
+        </div>
+        <div class="sp-card-ov"></div>
+      </div>
+      <span class="sp-card-cat">POP Ceilings</span>
+      <div class="sp-card-text">
+        <span class="sp-card-num">09</span>
+        <h3 class="sp-card-name">POP Ceiling Design</h3>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ══ COMPLETED PROJECTS ════════════════════════════════ -->
+<section class="projects" id="s-projects">
+  <div class="W">
+    <div class="proj-hd">
+      <div class="proj-ey rv">
+        <span class="proj-ey-dot"></span>
+        <span class="proj-ey-txt">Completed Projects</span>
+      </div>
+      <h2 class="proj-h rv d1">Completed <em>Projects.</em></h2>
+      <p class="proj-lead rv d2">Explore a growing collection of completed projects showcasing the craftsmanship, finishes and attention to detail that define the Wima Signature experience.</p>
+      <div class="pf-bar rv d3" role="group" aria-label="Filter projects by category">
+        <button class="pf-btn active" data-filter="all">All</button>
+        <button class="pf-btn" data-filter="Residential">Residential</button>
+        <button class="pf-btn" data-filter="Commercial">Commercial</button>
+        <button class="pf-btn" data-filter="Hospitality">Hospitality</button>
+        <button class="pf-btn" data-filter="Ceiling Systems">Ceiling Systems</button>
+      </div>
+    </div>
+    <div class="pb-list" id="projList"></div>
+  </div>
+</section>
+
+
+<!-- ══ WHY WIMA SIGNATURE ════════════════════════════════ -->
+<section class="why sec-dark" id="s-why">
+<div class="W">
+
+    <!-- Header -->
+    <div class="why-hd">
+      <p class="why-ey rv">
+        <span class="why-ey-dot"></span>
+        <span class="why-ey-txt">The Wima Signature Advantage</span>
+      </p>
+      <h2 class="why-h rv d1">
+      The Wima Signature<br><em>Advantage.</em>
+    </h2>
+      <div class="why-intro rv d2">
+        <p class="why-p why-p-lead">
+          At Wima Signature, beautiful spaces are shaped by thoughtful inspiration,
+          quality finishes and coordinated execution.
+        </p>
+        <p class="why-p">
+          Each project benefits from the strength of the wider Wima ecosystem,
+          combining design inspiration, procurement support and practical
+          project guidance.
+        </p>
+      </div>
+    </div>
+
+    <!-- Six advantage cards -->
+    <div class="wbc">
+
+      <div class="wbc-card rv">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <path d="M16 7C9.5 7 4 16 4 16s5.5 9 12 9 12-9 12-9-5.5-9-12-9z" stroke="currentColor" stroke-width="1.3"/>
+              <circle cx="16" cy="16" r="4" stroke="currentColor" stroke-width="1.3"/>
+              <circle cx="16" cy="16" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Curated Design Inspiration</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">Carefully selected spaces and concepts that help homeowners and developers visualise what their interiors could become.</p>
+      </div>
+
+      <div class="wbc-card rv d1">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <path d="M16 4l8 6-8 18L8 10l8-6z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M8 10h16" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M11 10l5 18M21 10l-5 18" stroke="currentColor" stroke-width=".9" opacity=".45"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Premium Finishing Solutions</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">Ceiling systems, partition works and interior finishes sourced from verified suppliers — quality you can see, feel and rely on.</p>
+      </div>
+
+      <div class="wbc-card rv d2">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <path d="M4 5h3l3.5 14h13l2.5-9H10" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="13.5" cy="23.5" r="1.5" stroke="currentColor" stroke-width="1.3"/>
+              <circle cx="21.5" cy="23.5" r="1.5" stroke="currentColor" stroke-width="1.3"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Procurement Support</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">Group buying power and coordinated sourcing that delivers premium materials at prices retail cannot match.</p>
+      </div>
+
+      <div class="wbc-card rv d1">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <rect x="4" y="4" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/>
+              <rect x="18" y="4" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/>
+              <rect x="4" y="18" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/>
+              <rect x="18" y="18" width="10" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Installation Coordination</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">Materials arrive on schedule, quantities confirmed and delivery coordinated — so work begins without delays or surprises.</p>
+      </div>
+
+      <div class="wbc-card rv d2">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <circle cx="16" cy="16" r="11" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M16 5v2M16 25v2M5 16h2M25 16h2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              <path d="M20 12l-6 4-2 6 6-4 2-6z" stroke="currentColor" stroke-width="1.1"/>
+              <circle cx="16" cy="16" r="1.2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Project Guidance</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">From first enquiry to final installation — clear guidance at every step, coordinated entirely on WhatsApp.</p>
+      </div>
+
+      <div class="wbc-card rv d3">
+        <div class="wbc-head">
+          <div class="wbc-ico">
+            <svg viewBox="0 0 32 32" fill="none" width="18" height="18">
+              <path d="M16 4L6 8v9c0 5.5 4.3 10.6 10 12 5.7-1.4 10-6.5 10-12V8L16 4z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+              <path d="M11 16.5l3.5 3.5 7-7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="wbc-t">Trusted Wima Ecosystem</h3>
+          <div class="wbc-chk"></div>
+        </div>
+        <p class="wbc-d">Part of the established Wima Builders network — verified suppliers, proven projects and a platform built on trust and transparency.</p>
+      </div>
+
+    </div><!-- /wbc -->
+  </div>
+</section>
+
+<!-- ══ §5 START YOUR TRANSFORMATION ════════════════════════ -->
+<section class="cta-sec" id="s-cta">
+  <div class="W">
+    <div class="cta-inner">
+      <div class="cta-pill rv">
+        <span class="cta-pill-dot"></span>
+        <span class="cta-pill-txt">Wima Signature · Ghana</span>
+      </div>
+      <h2 class="cta-h rv d1">Ready to transform<br><em>your space?</em></h2>
+      <p class="cta-sub rv d2">
+        Whether you are building, renovating or upgrading, Wima Signature helps bring beautiful spaces to life.
+      </p>
+      <p class="cta-diaspora-note rv d2">
+        Building in Ghana while abroad? <a href="index.html#diaspora">Wima also coordinates diaspora projects &rarr;</a>
+      </p>
+      <div class="cta-btns rv d3">
+        <a href="https://wa.me/233243304777?text=Hi+Wima+Signature%2C+I+want+to+start+a+project+and+transform+my+space."
+           class="btn-primary-light" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15" aria-hidden="true"><use href="#wa"/></svg>
+          Request Pricing
+        </a>
+        <a href="index.html#deals" class="btn-outline-light">
+          Explore Deal Hub
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <div class="wa-share-wrap">
+          <button class="wa-share-btn" onclick="wimaShare()" aria-label="Share this deal on WhatsApp">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><use href="#wa"/></svg>
+            Share Deal
+          </button>
+          <p class="wa-share-hint wa-share-hint--light">Know someone building? Share this deal.</p>
+        </div>
+      </div>
+      <p class="cta-note rv d4">+233 24 330 4777 &nbsp;&middot;&nbsp; Accra, Ghana &nbsp;&middot;&nbsp; Responds within hours</p>
+      <div class="cta-divider rv" style="transition-delay:.4s">
+        <div class="cta-divider-line"></div><div class="cta-divider-dot">&#x2605;</div>
+        <div class="cta-divider-line"></div>
+      </div>
+      <div class="cta-links rv" style="transition-delay:.48s">
+        <a href="index.html#deals"     class="cta-lk">Live Campaigns</a>
+        <a href="index.html#catalogue" class="cta-lk">Solutions Catalogue</a>
+        <a href="index.html#diaspora"  class="cta-lk">Diaspora Support</a>
+        <a href="index.html"           class="cta-lk">Deal Hub Home</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ §6 FOOTER ════════════════════════════════════════════ -->
+<footer class="ft">
+  <div class="W">
+    <div class="ft-inner">
+      <div class="ft-brand">
+        <div class="ft-name">Wima <em>Signature</em></div>
+        <div class="ft-tag">Transforming Spaces. One Signature Finish At A Time.</div>
+      </div>
+      <a href="https://wa.me/233243304777?text=Hi+Wima+Signature%2C+I+want+to+discuss+a+finishing+project."
+         class="ft-wa" target="_blank" rel="noopener">
+        <div class="ft-wa-ico">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="#fff"><use href="#wa"/></svg>
+        </div>
+        <div>
+          <div class="ft-wa-num">+233 24 330 4777</div>
+          <div class="ft-wa-sub">Responds within hours</div>
+        </div>
+      </a>
+      <nav class="ft-nav" aria-label="Footer">
+        <a href="#s-spaces">Spaces</a>
+        <a href="#s-projects">Projects</a>
+        <a href="#s-why">Why Wima</a>
+        <a href="#s-cta">Transform</a>
+        <a href="index.html#deals">Live Campaigns</a>
+        <a href="index.html#catalogue">Catalogue</a>
+        <a href="index.html#diaspora">Diaspora Support</a>
+        <a href="index.html">Deal Hub</a>
+      </nav>
+      <div class="ft-sep"></div>
+      <div class="ft-bottom">
+        <span class="ft-copy">&copy; 2025 Wima Signature. All rights reserved.</span>
+        <span class="ft-parent">A <em>Wima Builders</em> Brand</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <div class="lb-top">
+    <span class="lb-name" id="lbName"></span>
+    <button class="lb-close" id="lbClose" aria-label="Close">&#215;</button>
+  </div>
+  <div class="lb-stage">
+    <img id="lb-img" src="" alt="" decoding="async">
+    <button class="lb-arr" id="lb-prev" aria-label="Previous">&#8249;</button>
+    <button class="lb-arr" id="lb-next" aria-label="Next">&#8250;</button>
+    <div class="lb-ctr" id="lbCtr"></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+const IMG = {
+  i1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873107/i1_bslray.jpg",
+  bed1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873101/bed1_sjcpbi.jpg",
+  sp_bed2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873106/sp_bed2_gagfai.jpg",
+  sp_bed3: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873106/sp_bed3_vhuegg.jpg",
+  lr: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873104/lr_oeqsms.jpg",
+  sp_lr2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873108/sp_lr2_rzbzjt.jpg",
+  sp_lr3: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873107/sp_lr3_w7ohts.jpg",
+  i4: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873102/i4_bxxh3h.jpg",
+  office1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873106/office1_pm3hdj.jpg",
+  hero: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873102/hero_avt5j7.jpg",
+  emb1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873101/emb1_exs85u.jpg",
+  embassy: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873101/embassy_fmkpa8.jpg",
+  lat1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873102/lat1_lbqlmp.jpg",
+  lat2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873103/lat2_gh1gpa.jpg",
+  latex1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873103/latex1_wpkqup.jpg",
+  lp1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873104/lp1_vmnbqi.jpg",
+  lp2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873104/lp2_rus1bf.jpg",
+  labon1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873103/labon1_j8mwjm.jpg",
+  nob1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873105/nob1_ksapmo.jpg",
+  nob2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873105/nob2_thi35n.jpg",
+  nobel1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873105/nobel1_zze28z.jpg",
+  comm1: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873103/comm1_f4ycs5.jpg",
+  comm2: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873102/comm2_tarbdk.jpg",
+  i5: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873101/i5_rrwp66.jpg",
+  bed3: "https://res.cloudinary.com/dwdhm3rrc/image/upload/v1781873102/bed3_b7tmxo.jpg"
+};
+
+// ── FILL IMAGES ───────────────────────────────────────────────
+function fill(){
+  document.querySelectorAll('img[data-imgkey]').forEach(function(img){
+    var k=img.getAttribute('data-imgkey');
+    if(IMG[k]){img.src=IMG[k];img.removeAttribute('data-imgkey');}
+  });
+}
+
+const PROJ_DATA = [
+  {
+    name: "Embassy Garden", loc: "Cantonments, Accra", cat: "Residential", year: "2024",
+    tags: ["Plasterboard","Arch Detailing","Accent Lighting","POP Paint"],
+    desc: "Arched plasterboard niches with warm accent lighting and timber veneer — premium residential bedroom finishing.",
+    images: ["emb1","embassy"],
+    wa: "Embassy+Garden+residential+finish",
+  },
+  {
+    name: "Le Pavillion Restaurant", loc: "Labone, Accra", cat: "Hospitality", year: "2024",
+    tags: ["Plasterboard","Arch Framing","Recessed Ceiling","POP Paint"],
+    desc: "Dramatic arched plasterboard columns and recessed ceiling systems throughout a premium dining environment.",
+    images: ["lp1","lp2","labon1"],
+    wa: "Le+Pavillion+Restaurant+ceiling+finish",
+  },
+  {
+    name: "Latex Foam Showroom", loc: "Spintex Road, Accra", cat: "Commercial", year: "2024",
+    tags: ["Suspended Ceiling","Grid System","LED Integration","Acoustic"],
+    desc: "Large-format suspended ceiling system with integrated LED lighting across a flagship retail showroom.",
+    images: ["lat1","lat2","latex1"],
+    wa: "Latex+Foam+Showroom+ceiling+finish",
+  },
+  {
+    name: "Nobel House", loc: "Atomic Junction, Haatso", cat: "Commercial", year: "2024",
+    tags: ["Wave Ceiling","LED Strip","Plasterboard","Contemporary"],
+    desc: "Signature wave ribbon ceiling with amber LED strip lighting — a statement commercial interior.",
+    images: ["nob1","nob2","nobel1"],
+    wa: "Nobel+House+ceiling+finish",
+  },
+  {
+    name: "Ferri Homes Showroom (Ongoing Project)", loc: "Spintex, Accra", cat: "Commercial", year: "2025",
+    tags: ["Showroom","Metal Stud Frame","Suspended Ceiling","Ongoing","Large Format"],
+    desc: "An ongoing large-scale ceiling installation at the Ferri Homes showroom, Spintex — metal stud framework being installed across a high-volume commercial display space.",
+    images: ["comm1","comm2"],
+    wa: "Ferri+Homes+Showroom+Ongoing+Project+Spintex",
+  },
+];
+
+// ── RENDER PROJECTS — Premium Portfolio ──────────────────────
+(function(){
+  var list = document.getElementById('projList');
+  if(!list || !PROJ_DATA) return;
+
+  PROJ_DATA.forEach(function(p, pi){
+    var card = document.createElement('div');
+    card.className = 'proj-card rv';
+    var allImgs = p.images || [];
+    var featKey = allImgs[0] || '';
+    var thumbsHtml = '';
+    if(allImgs.length > 1){
+      thumbsHtml = '<div class="pc-thumbs">';
+      allImgs.forEach(function(key, idx){
+        thumbsHtml +=
+          '<button class="pc-thumb' + (idx===0?' active':'') + '" '+
+          'data-proj="'+pi+'" data-img="'+idx+'" aria-label="View image '+(idx+1)+'">' +
+          '<img src="" data-imgkey="'+key+'" alt="" loading="lazy" decoding="async">' +
+          '</button>';
+      });
+      thumbsHtml += '</div>';
+    }
+    var tagsHtml = '';
+    if(p.tags && p.tags.length){
+      tagsHtml = '<div class="pc-tags">';
+      p.tags.forEach(function(t){ tagsHtml += '<span class="pc-tag">'+t+'</span>'; });
+      tagsHtml += '</div>';
+    }
+    var wa = 'https://wa.me/233243304777?text=Hi+Wima+Signature%2C+I+am+interested+in+the+'+encodeURIComponent(p.name)+'+project.';
+
+    card.innerHTML =
+      '<div class="pc-img-wrap">' +
+        '<div class="pc-img" data-proj="'+pi+'" data-img="0">' +
+          '<img src="" data-imgkey="'+featKey+'" alt="'+p.name+'" loading="lazy" decoding="async">' +
+          '<div class="pc-img-ov"></div>' +
+          '<div class="pc-img-zoom" aria-hidden="true">' +
+            '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="18" height="18"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>' +
+          '</div>' +
+        '</div>' +
+        (allImgs.length > 1 ? thumbsHtml : '') +
+      '</div>' +
+      '<div class="pc-info">' +
+        '<div class="pc-meta">' +
+          '<span class="pc-cat">'+p.cat+'</span>' +
+          (p.year ? '<span class="pc-year">'+p.year+'</span>' : '') +
+        '</div>' +
+        '<h3 class="pc-name">'+p.name+'</h3>' +
+        '<p class="pc-loc">' +
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="12" height="12"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>' +
+          p.loc +
+        '</p>' +
+        '<p class="pc-desc">'+p.desc+'</p>' +
+        tagsHtml +
+        '<div class="pc-foot">' +
+          '<a href="'+wa+'" class="pc-wa" target="_blank" rel="noopener">' +
+            '<svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><use href="#wa"/></svg>' +
+            'Enquire about this project' +
+          '</a>' +
+          (allImgs.length > 1 ?
+            '<span class="pc-count">'+allImgs.length+' images</span>' : '') +
+        '</div>' +
+      '</div>';
+
+    card.querySelector('.pc-img').addEventListener('click', function(e){
+      if(e.target.closest('.pc-thumb')) return;
+      openProjLb(p.images, parseInt(this.getAttribute('data-img')||0), p.name);
+    });
+
+    card.querySelectorAll('.pc-thumb').forEach(function(btn){
+      btn.addEventListener('click', function(e){
+        e.stopPropagation();
+        var imgIdx = parseInt(this.getAttribute('data-img'));
+        var newKey = allImgs[imgIdx];
+        var fi = card.querySelector('.pc-img img');
+        fi.src = IMG[newKey] || '';
+        card.querySelector('.pc-img').setAttribute('data-img', imgIdx);
+        card.querySelectorAll('.pc-thumb').forEach(function(b){ b.classList.remove('active'); });
+        this.classList.add('active');
+      });
+    });
+
+    list.appendChild(card);
+  });
+
+  // Fill after DOM has processed all new cards
+  fill();
+  setTimeout(fill, 0);
+  setTimeout(fill, 300);
+  setTimeout(fill, 600);
+})();
+
+// ── Project lightbox ──────────────────────────────────────────
+function openProjLb(imgKeys, startIdx, projName){
+  var list = imgKeys.map(function(k){ return {key:k, name:projName}; });
+  openLb(list, startIdx);
+}
+
+// ── SPACES LIGHTBOX ────────────────────────────────────────────
+var SPACES_DATA=[
+  {name:'Modern Ceilings',       key:'i1'},
+  {name:'Luxury Bedrooms',       key:'bed1'},
+  {name:'Monochrome Bedroom',    key:'sp_bed2'},
+  {name:'Purple Bedroom Suite',  key:'sp_bed3'},
+  {name:'Elegant Living Rooms',  key:'lr'},
+  {name:'Art Deco Living Room',  key:'sp_lr2'},
+  {name:'Contemporary Living',   key:'sp_lr3'},
+  {name:'Restaurants & Hospitality', key:'i4'},
+  {name:'Commercial Interiors',  key:'office1'}
+];
+document.querySelectorAll('.sp-card:not(.sp-card--placeholder)').forEach(function(card){
+  card.addEventListener('click',function(){
+    var idx=parseInt(card.getAttribute('data-idx')||'0');
+    openLb(SPACES_DATA,idx);
+  });
+});
+
+// POP Ceilings card has no photo yet — clicking it opens a WhatsApp
+// enquiry instead of the (non-existent) photo lightbox.
+var popCard = document.getElementById('popCeilingsCard');
+if(popCard){
+  popCard.style.cursor = 'pointer';
+  popCard.addEventListener('click', function(){
+    var msg = encodeURIComponent("Hi Wima Signature, I'd like to enquire about POP ceiling design.");
+    window.open('https://wa.me/233243304777?text=' + msg, '_blank', 'noopener,noreferrer');
+  });
+}
+
+// ── LIGHTBOX ──────────────────────────────────────────────────
+var lbEl=document.getElementById('lb'),
+    lbImg=document.getElementById('lb-img'),
+    lbName=document.getElementById('lbName'),
+    lbCtr=document.getElementById('lbCtr'),
+    lbList=[],lbIdx=0;
+
+function lbShow(idx){
+  lbIdx=(idx+lbList.length)%lbList.length;
+  var item=lbList[lbIdx];
+  lbImg.classList.add('fade');
+  setTimeout(function(){
+    var key=item.images?item.images[0]:item.key;
+    lbImg.src=IMG[key]||'';
+    lbImg.alt=item.name;
+    lbImg.classList.remove('fade');
+  },200);
+  lbName.textContent=item.name;
+  lbCtr.textContent=(lbIdx+1)+' / '+lbList.length;
+}
+function openLb(list,idx){
+  lbList=list;lbShow(idx);
+  lbEl.classList.add('open');
+  document.body.style.overflow='hidden';
+  requestAnimationFrame(function(){requestAnimationFrame(function(){lbEl.classList.add('vis');});});
+}
+function closeLb(){
+  lbEl.classList.remove('vis');
+  setTimeout(function(){lbEl.classList.remove('open');document.body.style.overflow='';lbImg.src='';},250);
+}
+document.getElementById('lbClose').onclick=closeLb;
+document.getElementById('lb-prev').onclick=function(e){e.stopPropagation();lbShow(lbIdx-1);};
+document.getElementById('lb-next').onclick=function(e){e.stopPropagation();lbShow(lbIdx+1);};
+lbEl.addEventListener('click',function(e){if(e.target===lbEl)closeLb();});
+document.addEventListener('keydown',function(e){
+  if(!lbEl.classList.contains('open'))return;
+  if(e.key==='Escape')closeLb();
+  if(e.key==='ArrowLeft')lbShow(lbIdx-1);
+  if(e.key==='ArrowRight')lbShow(lbIdx+1);
+});
+var swX=null;
+lbEl.addEventListener('touchstart',function(e){swX=e.touches[0].clientX;},{passive:true});
+lbEl.addEventListener('touchend',function(e){
+  if(swX===null)return;
+  var dx=e.changedTouches[0].clientX-swX;
+  if(Math.abs(dx)>48)dx<0?lbShow(lbIdx+1):lbShow(lbIdx-1);
+  swX=null;
+},{passive:true});
+
+// ── HERO ENTRANCE ─────────────────────────────────────────────
+(function(){
+  // Image pan-in
+  var bg = document.getElementById('heroBg');
+  if(bg) requestAnimationFrame(function(){
+    requestAnimationFrame(function(){ bg.classList.add('in'); });
+  });
+  // Headline lines stagger in
+  setTimeout(function(){
+    document.querySelectorAll('.hero-hl').forEach(function(el){
+      el.classList.add('in');
+    });
+  }, 400);
+  // Gold rule fades in after headline
+  setTimeout(function(){
+    var rule = document.getElementById('heroRule');
+    if(rule) rule.classList.add('in');
+  }, 1200);
+})();
+
+// ── SCROLL REVEAL ─────────────────────────────────────────────
+(function(){
+  var els=document.querySelectorAll('.rv');
+  if(!els.length)return;
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:0.08,rootMargin:'0px 0px -16px 0px'});
+  els.forEach(function(el){io.observe(el);});
+})();
+
+// ── MOBILE DRAWER ─────────────────────────────────────────────
+(function(){
+  var burger=document.getElementById('sigBurger'),
+      drawer=document.getElementById('sigDrawer'),
+      bg=document.getElementById('sigDrawerBg'),
+      closeBtn=document.getElementById('sigDrawerClose');
+  if(!burger||!drawer)return;
+  function openSigDrawer(){
+    drawer.classList.add('open');drawer.setAttribute('aria-hidden','false');
+    burger.classList.add('open');document.body.style.overflow='hidden';
+  }
+  function closeSigDrawer(){
+    drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');
+    burger.classList.remove('open');document.body.style.overflow='';
+  }
+  window.closeSigDrawer=closeSigDrawer;
+  burger.addEventListener('click',function(){drawer.classList.contains('open')?closeSigDrawer():openSigDrawer();});
+  if(closeBtn)closeBtn.addEventListener('click',closeSigDrawer);
+  if(bg)bg.addEventListener('click',closeSigDrawer);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&drawer.classList.contains('open'))closeSigDrawer();});
+})();
+
+// ── IMAGE FILL TRIGGERS ──────────────────────────────────────
+document.addEventListener('DOMContentLoaded', fill);
+window.addEventListener('load', fill);
+window.addEventListener('load', function(){ setTimeout(fill, 300); });
+window.addEventListener('load', function(){ setTimeout(fill, 800); });
+if(document.readyState === 'complete' || document.readyState === 'interactive'){
+  setTimeout(fill, 0);
+}
+</script>
+<script>
+function wimaShare(){
+  var msg = encodeURIComponent(
+    "Build Better. Spend Smarter.\n\n" +
+    "Explore exclusive deals, procurement support and premium finishing solutions through Wima Deal Hub.\n\n" +
+    window.location.href
+  );
+  window.open("https://wa.me/?text=" + msg, "_blank", "noopener,noreferrer");
+}
+</script>
+</body>
+</html>
