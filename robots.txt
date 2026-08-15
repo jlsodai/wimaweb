@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wimabuilders.com/sitemap.xml
